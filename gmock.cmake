@@ -1,4 +1,4 @@
-set(GOOGLEMOCK_ROOT gtest/googlemock CACHE STRING "Google Mock source root")
+set(GOOGLEMOCK_ROOT googletest/googlemock CACHE STRING "Google Mock source root")
 
 include_directories(SYSTEM
     ${PROJECT_SOURCE_DIR}/${GOOGLEMOCK_ROOT}
